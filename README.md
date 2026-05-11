@@ -1,1 +1,1 @@
-"# ai-assisted-razor-components-succinctly" 
+Ai-Assisted Razor Components Succinctly

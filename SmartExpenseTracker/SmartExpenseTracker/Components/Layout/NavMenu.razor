@@ -1,0 +1,30 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">SmartExpenseTracker</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="nav flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/expenses" Match="NavLinkMatch.All">
+                <span class="bi bi-list-ul-nav-menu" aria-hidden="true"></span> Expenses
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/smart-dashboard">
+                <span class="bi bi-bar-chart-line-fill-nav-menu" aria-hidden="true"></span> Smart Dashboard
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/expenses/new">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> New Expense
+            </NavLink>
+        </div>
+    </nav>
+</div>
+

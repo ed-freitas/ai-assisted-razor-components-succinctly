@@ -1,0 +1,315 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SmartExpenseTracker/1.0.0": {
+        "dependencies": {
+          "BlazorBlueprint.Components": "3.10.0",
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": "10.0.5",
+          "OpenAI": "2.10.0",
+          "SmartExpenseTracker.Client": "1.0.0"
+        },
+        "runtime": {
+          "SmartExpenseTracker.dll": {}
+        }
+      },
+      "AngleSharp/0.17.1": {
+        "runtime": {
+          "lib/netstandard2.0/AngleSharp.dll": {
+            "assemblyVersion": "0.17.1.0",
+            "fileVersion": "0.17.1.0"
+          }
+        }
+      },
+      "AngleSharp.Css/0.17.0": {
+        "dependencies": {
+          "AngleSharp": "0.17.1"
+        },
+        "runtime": {
+          "lib/net7.0/AngleSharp.Css.dll": {
+            "assemblyVersion": "0.17.0.0",
+            "fileVersion": "0.17.0.0"
+          }
+        }
+      },
+      "BlazorBlueprint.Components/3.10.0": {
+        "dependencies": {
+          "BlazorBlueprint.Icons.Lucide": "2.0.0",
+          "BlazorBlueprint.Primitives": "3.10.0",
+          "HtmlSanitizer": "9.0.892",
+          "Markdig": "0.37.0",
+          "TailwindMerge.NET": "1.3.0"
+        },
+        "runtime": {
+          "lib/net8.0/BlazorBlueprint.Components.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.10.0.0"
+          }
+        }
+      },
+      "BlazorBlueprint.Icons.Lucide/2.0.0": {
+        "runtime": {
+          "lib/net8.0/BlazorBlueprint.Icons.Lucide.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "BlazorBlueprint.Primitives/3.10.0": {
+        "runtime": {
+          "lib/net8.0/BlazorBlueprint.Primitives.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.10.0.0"
+          }
+        }
+      },
+      "HtmlSanitizer/9.0.892": {
+        "dependencies": {
+          "AngleSharp": "0.17.1",
+          "AngleSharp.Css": "0.17.0"
+        },
+        "runtime": {
+          "lib/net8.0/HtmlSanitizer.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.892.0"
+          }
+        }
+      },
+      "Markdig/0.37.0": {
+        "runtime": {
+          "lib/net8.0/Markdig.dll": {
+            "assemblyVersion": "0.37.0.0",
+            "fileVersion": "0.37.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly/10.0.5": {
+        "dependencies": {
+          "Microsoft.JSInterop.WebAssembly": "10.0.5"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
+            "assemblyVersion": "10.0.5.0",
+            "fileVersion": "10.0.526.15411"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/10.0.5": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "10.0.5"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll": {
+            "assemblyVersion": "10.0.5.0",
+            "fileVersion": "10.0.526.15411"
+          }
+        }
+      },
+      "Microsoft.DotNet.HotReload.WebAssembly.Browser/10.0.201": {
+        "runtime": {
+          "lib/net10.0/Microsoft.DotNet.HotReload.WebAssembly.Browser.dll": {
+            "assemblyVersion": "10.0.201.0",
+            "fileVersion": "10.2.126.15422"
+          }
+        }
+      },
+      "Microsoft.JSInterop.WebAssembly/10.0.5": {
+        "runtime": {
+          "lib/net10.0/Microsoft.JSInterop.WebAssembly.dll": {
+            "assemblyVersion": "10.0.5.0",
+            "fileVersion": "10.0.526.15411"
+          }
+        }
+      },
+      "OpenAI/2.10.0": {
+        "dependencies": {
+          "System.ClientModel": "1.10.0"
+        },
+        "runtime": {
+          "lib/net10.0/OpenAI.dll": {
+            "assemblyVersion": "2.10.0.0",
+            "fileVersion": "2.10.0.0"
+          }
+        }
+      },
+      "Planetarium.LruCacheNet/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/LruCacheNet.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "System.ClientModel/1.10.0": {
+        "dependencies": {
+          "System.Memory.Data": "10.0.3"
+        },
+        "runtime": {
+          "lib/net10.0/System.ClientModel.dll": {
+            "assemblyVersion": "1.10.0.0",
+            "fileVersion": "1.1000.26.16607"
+          }
+        }
+      },
+      "System.Memory.Data/10.0.3": {
+        "runtime": {
+          "lib/net10.0/System.Memory.Data.dll": {
+            "assemblyVersion": "10.0.0.3",
+            "fileVersion": "10.0.326.7603"
+          }
+        }
+      },
+      "TailwindMerge.NET/1.3.0": {
+        "dependencies": {
+          "Planetarium.LruCacheNet": "1.2.0"
+        },
+        "runtime": {
+          "lib/net10.0/TailwindMerge.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "SmartExpenseTracker.Client/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "10.0.5",
+          "Microsoft.DotNet.HotReload.WebAssembly.Browser": "10.0.201"
+        },
+        "runtime": {
+          "SmartExpenseTracker.Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmartExpenseTracker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AngleSharp/0.17.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5MPI4bbixlwxb0W/smOMeIR+QlxMy5/5jD+WnIAw4pBC+7AhLPe5bS3cLgQMJyvd6q0A48sG+uYOt/ep406GLA==",
+      "path": "anglesharp/0.17.1",
+      "hashPath": "anglesharp.0.17.1.nupkg.sha512"
+    },
+    "AngleSharp.Css/0.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bg0AcugmX6BFEi/DHG61QrwRU8iuiX4H8LZehdIzYdqOM/dgb3BsCTzNIcc1XADn4+xfQEdVwJYTSwUxroL4vg==",
+      "path": "anglesharp.css/0.17.0",
+      "hashPath": "anglesharp.css.0.17.0.nupkg.sha512"
+    },
+    "BlazorBlueprint.Components/3.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NRciekDe9ioL6WtpV/pQm+L7iMI4BVgDiAqRg0w/Xb9SsX5YTg9Yczl64WGv9kVZ1vE45pOM63gR2s/8vMsOUA==",
+      "path": "blazorblueprint.components/3.10.0",
+      "hashPath": "blazorblueprint.components.3.10.0.nupkg.sha512"
+    },
+    "BlazorBlueprint.Icons.Lucide/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DWr5VUhebPN7EP9T3DYe0aAK5pfETRSdv48dWPqApip8/X3gs64yhPCXrmuvOHy80eKDfblL8mv9UFM3qmDbwA==",
+      "path": "blazorblueprint.icons.lucide/2.0.0",
+      "hashPath": "blazorblueprint.icons.lucide.2.0.0.nupkg.sha512"
+    },
+    "BlazorBlueprint.Primitives/3.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bpLHMLvCRMTNrZSC2vLqh0nA9B7ogNJvlLjtrPmP8D13JyPzTcUdvS3i3scbzd5fDrCcG2qZSzyvGzhbBzfhpg==",
+      "path": "blazorblueprint.primitives/3.10.0",
+      "hashPath": "blazorblueprint.primitives.3.10.0.nupkg.sha512"
+    },
+    "HtmlSanitizer/9.0.892": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zdkMmpNCjTkxna8Y+jmPIFm2st+HjHrf32yNElFYwe7L4GmDm+mdKR6TzDyf6ewJ0RUUz84D4IkHNgrwGi4VbQ==",
+      "path": "htmlsanitizer/9.0.892",
+      "hashPath": "htmlsanitizer.9.0.892.nupkg.sha512"
+    },
+    "Markdig/0.37.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-biiu4MTPFjW55qw6v5Aphtj0MjDLJ14x8ndZwkJUHIeqvaSGKeqhLY7S7Vu/S3k7/c9KwhhnaCDP9hdFNUhcNA==",
+      "path": "markdig/0.37.0",
+      "hashPath": "markdig.0.37.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly/10.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fjmhjvZpYTJVl/sxpDStP8+fQ6XEG8r9iuhafuTCp2nAAGPcJhsSND58he9BOekbxs6nMv2OECUGwtWqHBGFcg==",
+      "path": "microsoft.aspnetcore.components.webassembly/10.0.5",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.10.0.5.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly.Server/10.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wDK4Yiuz9oq3LLO8ies4UzpRLGQ56WGHj099h0MzkFyU8YcaZJ9h76ZkBpcgJQPNECjxL0lXg4hQz2fhrt0qHQ==",
+      "path": "microsoft.aspnetcore.components.webassembly.server/10.0.5",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.server.10.0.5.nupkg.sha512"
+    },
+    "Microsoft.DotNet.HotReload.WebAssembly.Browser/10.0.201": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4EAMH3CqtVwVm7Sx4DnNtZj/J0b+A1YGcTnCL6prhQ8ZHlwbVtZ3RmSyJdi85mSnLl+u94aVr8fElRGkjZkKmw==",
+      "path": "microsoft.dotnet.hotreload.webassembly.browser/10.0.201",
+      "hashPath": "microsoft.dotnet.hotreload.webassembly.browser.10.0.201.nupkg.sha512"
+    },
+    "Microsoft.JSInterop.WebAssembly/10.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9iva1I1opPJA1xMSGTNmbyLhyzw383l6StST9gebB/UEBrYuadzwsv7O3eKAhmJVsPUGy6wWo4SVUcfFnPNQXA==",
+      "path": "microsoft.jsinterop.webassembly/10.0.5",
+      "hashPath": "microsoft.jsinterop.webassembly.10.0.5.nupkg.sha512"
+    },
+    "OpenAI/2.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e5gAhMDcX5bFmmtR+lT6qZxJoaGb0SkIplPUUdKwcC4xerCh471hTIsrvfkou7scfZD9YQk6C06dP3NwBqHw1A==",
+      "path": "openai/2.10.0",
+      "hashPath": "openai.2.10.0.nupkg.sha512"
+    },
+    "Planetarium.LruCacheNet/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WE2eblbDjsOoJhOBA+Jiwk/c+xrbFTRu+KaUOhhRWklCyScWSGCFS3gNmuc7zjjdJPSjotGAoKjAJIkHsXPXxQ==",
+      "path": "planetarium.lrucachenet/1.2.0",
+      "hashPath": "planetarium.lrucachenet.1.2.0.nupkg.sha512"
+    },
+    "System.ClientModel/1.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lBEWs54F5Y5pZ9hC+8z4S/X76957ex+DPk7WecRHlbIHtrPfbRMMlOgI3iDn4Jpb3bSxvBnKaaHoD59auFjlBA==",
+      "path": "system.clientmodel/1.10.0",
+      "hashPath": "system.clientmodel.1.10.0.nupkg.sha512"
+    },
+    "System.Memory.Data/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MaGhRfGunmrj/nHjtsi9XkhlYJ/ERGWrbA+BiSKNtGnAjc9XlG5EhAvak6VRcX5LYzPF6pBO8nJ613dTgzabig==",
+      "path": "system.memory.data/10.0.3",
+      "hashPath": "system.memory.data.10.0.3.nupkg.sha512"
+    },
+    "TailwindMerge.NET/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eZgamFmf9muV4oxB8HUDRAxGVOErdfXoKKGnbAxfRHZpcn2ZcvHgYVp2ke9MSGL1G/9cL1C9Tfq42tg+NzkBwQ==",
+      "path": "tailwindmerge.net/1.3.0",
+      "hashPath": "tailwindmerge.net.1.3.0.nupkg.sha512"
+    },
+    "SmartExpenseTracker.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+﻿# Copilot Instructions
+
+## Project Guidelines
+- User accepted proceeding to integrate Blazor Blueprint UI into the project; assistant will add package reference and include blueprint static assets. 
+- User prefers Blazor and WebAssembly projects; prioritize Blazor over Razor Pages or MVC when relevant.
+- Remind the user to run `dotnet add package BlazorBlueprint.Components` and `dotnet restore` locally after changes to integrate Blazor Blueprint, including adding the blueprint CSS.
+- User will run MCP locally with `npx @blazorblueprint/mcp@latest`; remind to run `npx @blazorblueprint/mcp@latest` after restoring packages and as needed during integration.
+- User uses Visual Studio 2026 on Windows with PowerShell; workspace path is specified.

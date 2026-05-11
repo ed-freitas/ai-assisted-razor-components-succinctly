@@ -1,0 +1,61 @@
+﻿@page "/expenses"
+@using SmartExpenseTracker.Models
+@using System.Linq
+@using SmartExpenseTracker.Services
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+
+<h3 class="mb-4">Expenses</h3>
+
+@if (_totalCount == 0)
+{
+    <div class="alert alert-info">No expenses to display.</div>
+}
+else
+{
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Description</th>
+                <th scope="col">Category</th>
+                <th scope="col" class="text-end">Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <Virtualize TItem="SmartExpenseTracker.Models.Expense" ItemsProvider="LoadItems" ItemSize="48">
+                <ItemContent Context="expense">
+                    <ExpenseRow Expense="expense" />
+                </ItemContent>
+            </Virtualize>
+        </tbody>
+        <tfoot>
+            <tr class="fw-bold">
+                <td colspan="3" class="text-end">Total</td>
+                <td class="text-end">@Total.ToString("C")</td>
+            </tr>
+        </tfoot>
+    </table>
+}
+
+@code {
+    [Inject]
+    public IExpenseService ExpenseService { get; set; } = default!;
+
+    private int _totalCount;
+    private decimal Total { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Total = await ExpenseService.GetTotalAmountAsync();
+        // initialize total count for empty check
+        var first = await ExpenseService.GetPageAsync(0, 1);
+        _totalCount = first.TotalCount;
+    }
+
+    private async ValueTask<ItemsProviderResult<Expense>> LoadItems(ItemsProviderRequest request)
+    {
+        var (items, total) = await ExpenseService.GetPageAsync(request.StartIndex, request.Count);
+        _totalCount = total;
+        return new ItemsProviderResult<Expense>(items, total);
+    }
+}

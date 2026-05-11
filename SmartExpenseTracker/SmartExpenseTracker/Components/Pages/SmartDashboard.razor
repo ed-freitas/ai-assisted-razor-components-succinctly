@@ -1,0 +1,174 @@
+@page "/smart-dashboard"
+@rendermode InteractiveServer
+@using SmartExpenseTracker.Models
+@using SmartExpenseTracker.Services
+@inject IExpenseService ExpenseService
+@inject IAIService AIService
+@inject IJSRuntime JSRuntime
+
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">
+    <div>
+        <h3 class="mb-1">Smart Dashboard</h3>
+        <div class="text-muted">Expenses by category and AI spending insights</div>
+    </div>
+
+    <button type="button"
+            class="btn btn-outline-primary"
+            disabled="@(_isLoadingInsights || !_expenses.Any())"
+            @onclick="LoadInsightsAsync">
+        @(_isLoadingInsights ? "Analyzing..." : "Refresh insights")
+    </button>
+</div>
+
+@if (_isLoading)
+{
+    <div class="alert alert-info">Loading dashboard...</div>
+}
+else if (!_expenses.Any())
+{
+    <div class="alert alert-info">No expenses to analyze yet.</div>
+}
+else
+{
+    <div class="row g-4">
+        <div class="col-12 col-xl-7">
+            <div class="border rounded p-3 h-100">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                    <div>
+                        <h5 class="mb-1">Expenses by Category</h5>
+                        <div class="text-muted small">Total: @_totalAmount.ToString("C")</div>
+                    </div>
+                </div>
+
+                <div style="height: 360px;">
+                    <canvas @ref="_categoryChartCanvas"
+                            id="expense-category-chart"
+                            aria-label="Expenses by category chart"
+                            role="img"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-xl-5">
+            <div class="border rounded p-3 h-100">
+                <h5 class="mb-3">AI Spending Insights</h5>
+
+                @if (_isLoadingInsights)
+                {
+                    <div class="text-muted">Analyzing spending habits...</div>
+                }
+                else if (!string.IsNullOrWhiteSpace(_insightError))
+                {
+                    <div class="alert alert-warning mb-0">@_insightError</div>
+                }
+                else
+                {
+                    <div class="white-space-pre-line">@_insights</div>
+                }
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="table-responsive border rounded">
+                <table class="table table-sm align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">Category</th>
+                            <th scope="col" class="text-end">Amount</th>
+                            <th scope="col" class="text-end">Share</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var categoryTotal in _categoryTotals)
+                        {
+                            <tr>
+                                <td>@categoryTotal.Category</td>
+                                <td class="text-end">@categoryTotal.Amount.ToString("C")</td>
+                                <td class="text-end">@categoryTotal.Share.ToString("P0")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private readonly List<Expense> _expenses = new();
+    private List<CategoryTotal> _categoryTotals = new();
+    private ElementReference _categoryChartCanvas;
+    private decimal _totalAmount;
+    private string _insights = "Insights will appear after your expenses are analyzed.";
+    private string? _insightError;
+    private bool _isLoading = true;
+    private bool _isLoadingInsights;
+    private bool _shouldRenderChart;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var (items, _) = await ExpenseService.GetPageAsync(0, int.MaxValue);
+        _expenses.Clear();
+        _expenses.AddRange(items);
+
+        BuildCategoryTotals();
+        _isLoading = false;
+        _shouldRenderChart = _categoryTotals.Any();
+
+        if (_expenses.Any())
+        {
+            await LoadInsightsAsync();
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!_shouldRenderChart)
+        {
+            return;
+        }
+
+        _shouldRenderChart = false;
+
+        await JSRuntime.InvokeVoidAsync(
+            "smartExpenseCharts.renderExpenseCategoryChart",
+            _categoryChartCanvas,
+            _categoryTotals.Select(total => total.Category).ToArray(),
+            _categoryTotals.Select(total => total.Amount).ToArray());
+    }
+
+    private async Task LoadInsightsAsync()
+    {
+        _isLoadingInsights = true;
+        _insightError = null;
+
+        try
+        {
+            _insights = await AIService.GetSpendingInsights(_expenses);
+        }
+        catch (InvalidOperationException ex)
+        {
+            _insightError = ex.Message;
+        }
+        finally
+        {
+            _isLoadingInsights = false;
+        }
+    }
+
+    private void BuildCategoryTotals()
+    {
+        _totalAmount = _expenses.Sum(expense => expense.Amount);
+
+        _categoryTotals = _expenses
+            .GroupBy(expense => string.IsNullOrWhiteSpace(expense.Category) ? "Other" : expense.Category)
+            .Select(group => new CategoryTotal(
+                group.Key,
+                group.Sum(expense => expense.Amount),
+                _totalAmount == 0 ? 0 : group.Sum(expense => expense.Amount) / _totalAmount))
+            .OrderByDescending(total => total.Amount)
+            .ToList();
+    }
+
+    private sealed record CategoryTotal(string Category, decimal Amount, decimal Share);
+}

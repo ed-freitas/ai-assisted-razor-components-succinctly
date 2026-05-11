@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\components\\pages\\smartdashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\components\\pages\\smartdashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\services\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\services\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\components\\aicategorysuggester.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\components\\aicategorysuggester.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radki\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\894779064\\Weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\.github\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\services\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\services\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\components\\pages\\expenserow.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\components\\pages\\expenserow.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\components\\pages\\expenselist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\components\\pages\\expenselist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\components\\pages\\expenseentry.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\components\\pages\\expenseentry.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker\\smartexpensetracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{866EB952-BCEA-2301-E94F-88A43B5AD0D1}|SmartExpenseTracker\\SmartExpenseTracker.csproj|solutionrelative:smartexpensetracker\\smartexpensetracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96701E2F-0ADD-DFAF-EEDE-DE396B4360AF}|SmartExpenseTracker.Tests\\SmartExpenseTracker.Tests.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker.tests\\smartexpensetracker.tests.csproj||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{96701E2F-0ADD-DFAF-EEDE-DE396B4360AF}|SmartExpenseTracker.Tests\\SmartExpenseTracker.Tests.csproj|solutionrelative:smartexpensetracker.tests\\smartexpensetracker.tests.csproj||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96701E2F-0ADD-DFAF-EEDE-DE396B4360AF}|SmartExpenseTracker.Tests\\SmartExpenseTracker.Tests.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker.tests\\expenseentrycomponenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96701E2F-0ADD-DFAF-EEDE-DE396B4360AF}|SmartExpenseTracker.Tests\\SmartExpenseTracker.Tests.csproj|solutionrelative:smartexpensetracker.tests\\expenseentrycomponenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96701E2F-0ADD-DFAF-EEDE-DE396B4360AF}|SmartExpenseTracker.Tests\\SmartExpenseTracker.Tests.csproj|c:\\personal-data\\projects\\books\\ai-razor code\\smartexpensetracker\\smartexpensetracker.tests\\expensevalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96701E2F-0ADD-DFAF-EEDE-DE396B4360AF}|SmartExpenseTracker.Tests\\SmartExpenseTracker.Tests.csproj|solutionrelative:smartexpensetracker.tests\\expensevalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SmartDashboard.razor",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\Pages\\SmartDashboard.razor",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Components\\Pages\\SmartDashboard.razor",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\Pages\\SmartDashboard.razor",
+              "RelativeToolTip": "SmartExpenseTracker\\Components\\Pages\\SmartDashboard.razor",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAswKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T19:58:57.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SmartExpenseTracker\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-11T16:56:26.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\appsettings.json",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\appsettings.json",
+              "RelativeToolTip": "SmartExpenseTracker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-11T16:50:20.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AIService.cs",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Services\\AIService.cs",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Services\\AIService.cs",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Services\\AIService.cs",
+              "RelativeToolTip": "SmartExpenseTracker\\Services\\AIService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T16:34:33.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAIService.cs",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Services\\IAIService.cs",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Services\\IAIService.cs",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Services\\IAIService.cs",
+              "RelativeToolTip": "SmartExpenseTracker\\Services\\IAIService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T16:31:03.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AICategorySuggester.razor",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\AICategorySuggester.razor",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Components\\AICategorySuggester.razor",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\AICategorySuggester.razor",
+              "RelativeToolTip": "SmartExpenseTracker\\Components\\AICategorySuggester.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T15:17:14.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SmartExpenseTracker.Tests.csproj",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker.Tests\\SmartExpenseTracker.Tests.csproj",
+              "RelativeDocumentMoniker": "SmartExpenseTracker.Tests\\SmartExpenseTracker.Tests.csproj",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker.Tests\\SmartExpenseTracker.Tests.csproj",
+              "RelativeToolTip": "SmartExpenseTracker.Tests\\SmartExpenseTracker.Tests.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T00:10:18.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Program.cs",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Program.cs",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Program.cs",
+              "RelativeToolTip": "SmartExpenseTracker\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAApwCAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:27:09.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExpenseService.cs",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Services\\ExpenseService.cs",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Services\\ExpenseService.cs",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Services\\ExpenseService.cs",
+              "RelativeToolTip": "SmartExpenseTracker\\Services\\ExpenseService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA0wCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:27:01.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IExpenseService.cs",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Services\\IExpenseService.cs",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Services\\IExpenseService.cs",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Services\\IExpenseService.cs",
+              "RelativeToolTip": "SmartExpenseTracker\\Services\\IExpenseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:26:54.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExpenseRow.razor",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\Pages\\ExpenseRow.razor",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Components\\Pages\\ExpenseRow.razor",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\Pages\\ExpenseRow.razor",
+              "RelativeToolTip": "SmartExpenseTracker\\Components\\Pages\\ExpenseRow.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T16:44:00.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ExpenseEntryComponentTests.cs",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker.Tests\\ExpenseEntryComponentTests.cs",
+              "RelativeDocumentMoniker": "SmartExpenseTracker.Tests\\ExpenseEntryComponentTests.cs",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker.Tests\\ExpenseEntryComponentTests.cs",
+              "RelativeToolTip": "SmartExpenseTracker.Tests\\ExpenseEntryComponentTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T00:13:32.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ExpenseValidationTests.cs",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker.Tests\\ExpenseValidationTests.cs",
+              "RelativeDocumentMoniker": "SmartExpenseTracker.Tests\\ExpenseValidationTests.cs",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker.Tests\\ExpenseValidationTests.cs",
+              "RelativeToolTip": "SmartExpenseTracker.Tests\\ExpenseValidationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T00:10:31.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "copilot-instructions.md",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\.github\\copilot-instructions.md",
+              "RelativeDocumentMoniker": ".github\\copilot-instructions.md",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\.github\\copilot-instructions.md",
+              "RelativeToolTip": ".github\\copilot-instructions.md",
+              "ViewState": "AgIAAAYAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-08T23:40:08.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExpenseList.razor",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\Pages\\ExpenseList.razor",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Components\\Pages\\ExpenseList.razor",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\Pages\\ExpenseList.razor",
+              "RelativeToolTip": "SmartExpenseTracker\\Components\\Pages\\ExpenseList.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T14:56:13.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Models\\Expense.cs",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Models\\Expense.cs",
+              "RelativeToolTip": "SmartExpenseTracker\\Models\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T22:16:17.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\radki\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\894779064\\Weather.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\radki\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\894779064\\Weather.razor",
+              "ToolTip": "C:\\Users\\radki\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\894779064\\Weather.razor",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\radki\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\894779064\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T22:51:25.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "SmartExpenseTracker\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAABMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T22:51:33.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\App.razor",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Components\\App.razor",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\App.razor",
+              "RelativeToolTip": "SmartExpenseTracker\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:31:21.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExpenseEntry.razor",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\Pages\\ExpenseEntry.razor",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\Components\\Pages\\ExpenseEntry.razor",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\Components\\Pages\\ExpenseEntry.razor",
+              "RelativeToolTip": "SmartExpenseTracker\\Components\\Pages\\ExpenseEntry.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T23:29:51.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SmartExpenseTracker.csproj",
+              "DocumentMoniker": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\SmartExpenseTracker.csproj",
+              "RelativeDocumentMoniker": "SmartExpenseTracker\\SmartExpenseTracker.csproj",
+              "ToolTip": "C:\\PERSONAL-DATA\\Projects\\Books\\AI-Razor Code\\SmartExpenseTracker\\SmartExpenseTracker\\SmartExpenseTracker.csproj",
+              "RelativeToolTip": "SmartExpenseTracker\\SmartExpenseTracker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-05T22:07:40.687Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

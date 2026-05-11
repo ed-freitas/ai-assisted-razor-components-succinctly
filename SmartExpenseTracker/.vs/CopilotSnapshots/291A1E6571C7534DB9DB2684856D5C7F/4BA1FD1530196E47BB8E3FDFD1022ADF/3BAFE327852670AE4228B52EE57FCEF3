@@ -1,0 +1,42 @@
+﻿@page "/expenses"
+@using SmartExpenseTracker.Models
+@using System.Linq
+
+<h3 class="mb-4">Expenses</h3>
+
+@if (Expenses == null || !Expenses.Any())
+{
+    <div class="alert alert-info">No expenses to display.</div>
+}
+else
+{
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Description</th>
+                <th scope="col">Category</th>
+                <th scope="col" class="text-end">Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var expense in Expenses)
+            {
+                <ExpenseRow ExpenseRow="expense" />
+            }
+        </tbody>
+        <tfoot>
+            <tr class="fw-bold">
+                <td colspan="3" class="text-end">Total</td>
+                <td class="text-end">@Total.ToString("C")</td>
+            </tr>
+        </tfoot>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public IEnumerable<Expense> Expenses { get; set; } = Enumerable.Empty<Expense>();
+
+    private decimal Total => Expenses?.Sum(e => e.Amount) ?? 0m;
+}

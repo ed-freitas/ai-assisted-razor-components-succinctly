@@ -1,0 +1,61 @@
+﻿@page "/expenses/new"
+@using SmartExpenseTracker.Models
+@inject NavigationManager Navigation
+@inject SmartExpenseTracker.Services.IExpenseService ExpenseService
+
+<h3 class="mb-4">New Expense</h3>
+
+<EditForm Model="_expense" OnValidSubmit="HandleValidSubmit" FormName="NewExpenseForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <InputText class="form-control" @bind-Value="_expense.Description" />
+        <ValidationMessage For="() => _expense.Description" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Amount</label>
+        <InputNumber TValue="decimal" class="form-control" @bind-Value="_expense.Amount" />
+        <ValidationMessage For="() => _expense.Amount" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Date</label>
+        <InputDate TValue="DateTime" class="form-control" @bind-Value="_expense.Date" />
+        <ValidationMessage For="() => _expense.Date" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Category</label>
+        <InputSelect TValue="string" class="form-select" @bind-Value="_expense.Category">
+            <option value="">Select a category</option>
+            <option value="Food">Food</option>
+            <option value="Transport">Transport</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Other">Other</option>
+        </InputSelect>
+        <ValidationMessage For="() => _expense.Category" />
+    </div>
+
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+    </div>
+</EditForm>
+
+@code {
+    private Expense _expense = new Expense();
+
+    private async Task HandleValidSubmit()
+    {
+        await ExpenseService.AddExpenseAsync(_expense);
+        Navigation.NavigateTo("/expenses");
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/expenses");
+    }
+}

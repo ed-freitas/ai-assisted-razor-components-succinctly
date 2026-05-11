@@ -1,0 +1,95 @@
+@inject SmartExpenseTracker.Services.IAICategorySuggestionService CategorySuggestionService
+
+<div class="border rounded p-3 bg-light">
+    <div class="d-flex flex-wrap align-items-center gap-2">
+        <button type="button"
+                class="btn btn-outline-primary btn-sm"
+                data-testid="suggest-category"
+                disabled="@IsSuggestDisabled"
+                @onclick="SuggestCategoryAsync">
+            @(_isSuggesting ? "Suggesting..." : "Suggest category")
+        </button>
+
+        @if (!string.IsNullOrWhiteSpace(_suggestedCategory))
+        {
+            <span class="badge text-bg-secondary">Suggested: @_suggestedCategory</span>
+            <button type="button"
+                    class="btn btn-success btn-sm"
+                    data-testid="apply-category"
+                    @onclick="ApplySuggestedCategoryAsync">
+                Apply
+            </button>
+        }
+    </div>
+
+    @if (!string.IsNullOrWhiteSpace(_message))
+    {
+        <div class="form-text text-muted mt-2">@_message</div>
+    }
+</div>
+
+@code {
+    private string? _lastDescription;
+    private string? _message;
+    private string? _suggestedCategory;
+    private bool _isSuggesting;
+
+    [Parameter]
+    public string ExpenseDescription { get; set; } = string.Empty;
+
+    [Parameter]
+    public EventCallback<string> OnCategoryApplied { get; set; }
+
+    private bool IsSuggestDisabled => _isSuggesting || string.IsNullOrWhiteSpace(ExpenseDescription);
+
+    protected override void OnParametersSet()
+    {
+        if (string.Equals(_lastDescription, ExpenseDescription, StringComparison.Ordinal))
+        {
+            return;
+        }
+
+        _lastDescription = ExpenseDescription;
+        _message = null;
+        _suggestedCategory = null;
+    }
+
+    private async Task SuggestCategoryAsync()
+    {
+        if (string.IsNullOrWhiteSpace(ExpenseDescription))
+        {
+            _message = "Enter a description before requesting a suggestion.";
+            return;
+        }
+
+        _isSuggesting = true;
+        _message = null;
+
+        try
+        {
+            _suggestedCategory = await CategorySuggestionService.SuggestCategoryAsync(ExpenseDescription);
+            _message = string.IsNullOrWhiteSpace(_suggestedCategory)
+                ? "No category suggestion was available."
+                : null;
+        }
+        catch (InvalidOperationException ex)
+        {
+            _suggestedCategory = null;
+            _message = ex.Message;
+        }
+        finally
+        {
+            _isSuggesting = false;
+        }
+    }
+
+    private async Task ApplySuggestedCategoryAsync()
+    {
+        if (string.IsNullOrWhiteSpace(_suggestedCategory))
+        {
+            return;
+        }
+
+        await OnCategoryApplied.InvokeAsync(_suggestedCategory);
+    }
+}

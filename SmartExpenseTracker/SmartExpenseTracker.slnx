@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SmartExpenseTracker.Client/SmartExpenseTracker.Client.csproj" />
+  <Project Path="SmartExpenseTracker/SmartExpenseTracker.csproj" />
+  <Project Path="SmartExpenseTracker.Tests/SmartExpenseTracker.Tests.csproj" />
+</Solution>

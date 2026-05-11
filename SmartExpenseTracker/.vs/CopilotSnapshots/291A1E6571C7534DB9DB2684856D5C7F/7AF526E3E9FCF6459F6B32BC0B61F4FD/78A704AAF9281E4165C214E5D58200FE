@@ -1,0 +1,6 @@
+﻿namespace SmartExpenseTracker.Models
+{
+    public class Expense
+    {
+    }
+}

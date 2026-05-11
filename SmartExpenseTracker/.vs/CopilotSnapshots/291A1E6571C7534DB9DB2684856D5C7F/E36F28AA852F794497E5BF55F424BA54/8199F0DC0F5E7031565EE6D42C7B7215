@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Components
+@using SmartExpenseTracker.Models
+
+<tr>
+    <td>@ExpenseRow.Date.ToString("yyyy-MM-dd")</td>
+    <td>@ExpenseRow.Description</td>
+    <td>@ExpenseRow.Category</td>
+    <td class="text-end">@ExpenseRow.Amount.ToString("C")</td>
+</tr>
+
+@code {
+    [Parameter]
+    public Expense ExpenseRow { get; set; } = new Expense();
+}
